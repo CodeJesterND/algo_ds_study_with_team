@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/algorithms.iml" filepath="$PROJECT_DIR$/algorithms.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/algorithms_study.iml" filepath="$PROJECT_DIR$/.idea/algorithms_study.iml" />
+>>>>>>> orgins/main
     </modules>
   </component>
 </project>
