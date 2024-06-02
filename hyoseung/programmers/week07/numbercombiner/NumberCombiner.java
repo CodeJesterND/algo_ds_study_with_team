@@ -1,4 +1,4 @@
-package programmers.week06.numbercombiner;
+package programmers.week07.numbercombiner;
 
 import java.util.ArrayList;
 
