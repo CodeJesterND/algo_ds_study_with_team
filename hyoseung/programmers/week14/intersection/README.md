@@ -1,13 +1,13 @@
 ## 교점에 별 만들기
 
 ```java
-import java.util.ArrayList;
+import java.util.*;
 
 class Solution {
     public String[] solution(int[][] line) {
 
-        public static class Point {
-            public final long x, y;
+        class Point {
+            long x, y;
 
             private Point(long x, long y) {
                 this.x = x;
@@ -15,12 +15,10 @@ class Solution {
             }
         }
 
-        static int startX = Integer.MAX_VALUE;
-        static int startY = Integer.MAX_VALUE;
-        static int endX = Integer.MIN_VALUE;
-        static int endY = Integer.MIN_VALUE;
-
-        String[] answer = {};
+        int startX = Integer.MAX_VALUE;
+        int startY = Integer.MAX_VALUE;
+        int endX = Integer.MIN_VALUE;
+        int endY = Integer.MIN_VALUE;
 
         List<Point> points = new ArrayList<>();
 
@@ -43,45 +41,40 @@ class Solution {
                     continue;
                 }
 
-                Point point = new Point((int) (isValidInt1 / denominator), (int) (isValidInt2 / denominator));
+                Point point = new Point(isValidInt1 / denominator, isValidInt2 / denominator);
 
-
-                if (points.contaions(point)) {
+                if (!points.contains(point)) {
                     points.add(point);
                 }
 
-                startX = Math.min(startX, coord.x);
-                startY = Math.min(startY, coord.y);
-                endX = Math.max(endX, coord.x);
-                endY = Math.max(endY, coord.y);
+                startX = Math.min(startX, (int) point.x);
+                startY = Math.min(startY, (int) point.y);
+                endX = Math.max(endX, (int) point.x);
+                endY = Math.max(endY, (int) point.y);
             }
         }
 
-        ArrayList<String> board = new ArrayList<>();
-        for(int i = startY; i <= endY; i++){
+        List<String> board = new ArrayList<>();
+        for (int i = startY; i <= endY; i++) {
             StringBuilder sb = new StringBuilder();
-            for(int j = startX; j <= endX ; j++)
+            for (int j = startX; j <= endX; j++) {
                 sb.append(".");
-
+            }
             board.add(sb.toString());
         }
-        
-        for(Point point : points){
-            int x = Math.abs(c.x - startX);
-            int y = Math.abs(c.y - startY);
 
-            // System.out.println(x + " " + y);
+        for (Point point : points) {
+            int x = (int) Math.abs(point.x - startX);
+            int y = (int) Math.abs(point.y - startY);
 
             StringBuilder sb = new StringBuilder(board.get(y));
-            board.remove(y);
             sb.setCharAt(x, '*');
-
-            board.add(y, sb.toString());
+            board.set(y, sb.toString());
         }
-        
-        answer = new String[board.size()];
-        for(int i = 0 ; i < board.size() ; i++){
-            answer[i] = board.get(board.size()-i-1);
+
+        String[] answer = new String[board.size()];
+        for (int i = 0; i < board.size(); i++) {
+            answer[i] = board.get(board.size() - i - 1);
         }
 
         return answer;
