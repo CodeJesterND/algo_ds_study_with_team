@@ -1,12 +1,18 @@
 # Algorithm_Study
 
+<br>
+
 ## ❓알고리즘 스터디 목표
 자료구조를 기반으로 알고리즘을 활용해 통해 컴퓨터적 사고 향상을 목표로 하는 스터디입니다.
+
+<br>
 
 ## 🤔 진행 방식
 * 문제는 매주 화요일, 목요일 오후 8시에 코테를 진행합니다.
 * 풀이할 때 상대방이 내 코드를 보고 어느정도 이해할 수 있게 생각하며 작성합니다.
 * 서로 짠 코드를 자유롭게 질문 또는 깃 혹은 디스코드 라이브를 통해 코드 리뷰합니다.
+
+<br>
 
 ## 🙏 깃허브 사용 규칙
 1. 본인 닉네임의 폴더를 작성한다. ex) `mkdir "CodeJesterND"`
@@ -16,6 +22,7 @@
 5. 문제 풀이가 끝나면 `git push` 를 사용하여 깃허브에 `push`한다.
 6. 주차별로 풀이 후, 3번 부터 반복
 
+<br>
 
 ## 📆 문제 풀이 관련 일정
 | 주차                        | 문제                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -33,10 +40,14 @@
 | 11주차(24/06/18 ~ 24/06/24) | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990), [달리기 경주](https://school.programmers.co.kr/learn/courses/30/lessons/178871), [공원 산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928), [붕대 감기](https://school.programmers.co.kr/learn/courses/30/lessons/250137)                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | 12주차(24/06/25 ~ 24/07/01) | [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410), [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370), [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334), [가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | 13주차(24/07/02 ~ 24/07/08) | 한 주 쉬어 갑니다...!                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| 14주차(24/07/09 ~ 24/07/15) | [교점에 별 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/87377), [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302), [삼각 달팽이](https://school.programmers.co.kr/learn/courses/30/lessons/68645), [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949), [자연수 뒤집어 배열로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12932), [시저 암호](https://school.programmers.co.kr/learn/courses/30/lessons/12926), [이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930), [문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057)                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 14주차(24/07/09 ~ 24/07/15) | [교점에 별 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/87377), [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302), [삼각 달팽이](https://school.programmers.co.kr/learn/courses/30/lessons/68645), [행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949), [자연수 뒤집어 배열로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12932), [시저 암호](https://school.programmers.co.kr/learn/courses/30/lessons/12926), [이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930), [문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057)                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+<br>
 
 ## 문제 출처
 ### [프로그래머스](https://programmers.co.kr/)
+
+<br>
 
 ## 교안
 ### [취업과 이직을 위한 프로그래머스 코딩 테스트 문제 풀이 전략 : 자바 편](https://school.programmers.co.kr/learn/courses/16558/16558-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4-%EC%A0%84%EB%9E%B5-%EC%9E%90%EB%B0%94%ED%8E%B8)
