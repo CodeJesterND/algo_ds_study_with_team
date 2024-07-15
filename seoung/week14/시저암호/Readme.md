@@ -5,9 +5,6 @@
 
 1. %26으로 알파벳 25개에서 한개가 더 늘어나면 A로 가는 형식으로 구해주었다.
 
-
-## 책 문풀
-
 ```
 class Solution {
     public String solution(String s, int n) {
