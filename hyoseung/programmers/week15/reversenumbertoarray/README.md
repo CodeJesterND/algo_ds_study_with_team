@@ -27,6 +27,7 @@ class Solution {
     public int[] solution(int n) {
         String str = Long.toString(n);
         String reversed = new StringBuilder(str).reverse().toString();
+        char[] arr = reversed.toCharArray();
         
         int[] result = new int[arr.length];
         for (int i = 0; i < result.length; i++) {
