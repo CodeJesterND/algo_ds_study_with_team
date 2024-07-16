@@ -2,13 +2,13 @@
 
 ## 내가 푼 문제 풀이
 
-1. line별로 a,b,e,c,d,f로 받아옴, 각 타입은 long으로 선언 int를 선언하면 overflow 발생
-2. Point 클래스를 선언하여 x,y를 받음 because 함수에서 변수 두 개를 꺼내와야하는데 방법이 없음
-3. insertsection 함수로 문제에서 준 교점 공식을 사용하였다.
-4. if(x!=0 || y !=0)을 해준 이유는 이렇게 안해주면 점이 겁나 많이 생김.. 자세히 보니 정수에 해당 하는 부분만 교점으로 구함 
-5. 각각의 min과 max를 구함 why? 이차원 배열을 x,y좌표처럼 구해주어야 하기 때문에 해당 방법으로 maxX - minX +1 , maxY - minY + 1 이런식으로 풀었다.
-6. 이중 for 문을 돌면서 . 을 넣어주었다.
-7.  int x = (int)(list.get(i).x - minX); int y = (int)(maxY - list.get(i).y ); 해당 부분은 y 좌표가 이차원에서는 반대이기 때문에 maxY에서 list.get(i).y 부분을 빼주었다. 사실 안되서 무식하게 다 하나씩 해봄 ㅋㅋ..
+1. line별로 a,b,e,c,d,f로 받아옴, 각 타입은 long으로 선언 int를 선언하면 overflow 발생 
+2. Point 클래스를 선언하여 x,y를 받음 because 함수에서 변수 두 개를 꺼내와야하는데 방법이 없음 
+3. insertsection 함수로 문제에서 준 교점 공식을 사용하였다. 
+4. if(x!=0 || y !=0)을 해준 이유는 이렇게 안해주면 점이 겁나 많이 생김.. 자세히 보니 정수에 해당 하는 부분만 교점으로 구함  
+5. 각각의 min과 max를 구함 why? 이차원 배열을 x,y좌표처럼 구해주어야 하기 때문에 해당 방법으로 maxX - minX +1 , maxY - minY + 1 이런식으로 풀었다.     
+6. 이중 for 문을 돌면서을 넣어주었다. 
+7.  int x = (int)(list.get(i).x - minX); int y = (int)(maxY - list.get(i).y ); 해당 부분은 y 좌표가 이차원에서는 반대이기 때문에 maxY에서      list.get(i).y 부분을 빼주었다. 사실 안되서 무식하게 다 하나씩 해봄 ㅋㅋ... 
 8. 문자형 map 베얄 부분을 string 배열로 바꿔주어 리턴해주었다. 
 
 ```
