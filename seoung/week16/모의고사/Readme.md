@@ -1,5 +1,5 @@
 ## [Link](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
-## 모으고사
+## 모의고사
 
 
 ## 내가 푼 풀이
@@ -39,6 +39,7 @@ class Solution {
     }
 }
 ```
+
 
 ## 책 풀이
 ```
