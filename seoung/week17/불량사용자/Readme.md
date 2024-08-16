@@ -1,9 +1,12 @@
 ## [불량사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)
 
 
+
 1. id 값이 있는지 확인 없다면 for 계속 진행
 2. id 값을 체크한다. 길이와 * 그리고, banned_id 전체가 충족되어야함.
 3. 이렇게 되면 해당 banned_id기준으로 들어오는데 이게 하나씩 깊어지면서 comb 조합의 경우의 수를 구할 수 있다.
+
+
 ```
 import java.util.*;
 
@@ -65,7 +68,6 @@ class Solution {
 ```
 
 # 책 문제 풀이
-
 
 ```
 import java.util.*;
