@@ -79,3 +79,19 @@ class Solution {
     }
 }
 ```
+
+- newOrder: 각 메뉴 조합(키)과 그 조합이 등장한 횟수(값)를 저장
+- ordCnt : 각 조합 길이에 대해 가장 많이 등장한 횟수를 저장. 배열의 인덱스는 조합의 길이를 나타낸다. 
+- solution 메서드 : 입력으로 받은 주문 목록(orders), 코스 길이 목록(course)을 기반으로 모든 가능한 메뉴 조합을 생성하고, 가장 많이 주문된 메뉴 조합을 찾아 반환
+- orderCombine 메서드 : 재귀적으로 메뉴 조합을 생성하는 역할 
+
+상세 동작 과정
+각 주문(orders)에서 알파벳 순으로 정렬된 메뉴 조합을 만든다. orderCombine메서드를 호출하여 가능한 메뉴 조합을 모두 찾는다. 
+```
+for(String item : orders) {
+    char[] temp = item.toCharArray();
+    Arrays.sort(temp); // 메뉴 조합을 알파벳 순으로 정렬
+    String newItem = String.valueOf(temp);
+    orderCombine(new boolean[newItem.length()], 0, newItem, course); 
+}
+```
