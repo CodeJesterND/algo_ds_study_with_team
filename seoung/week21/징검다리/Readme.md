@@ -23,13 +23,13 @@ class Solution {
         int result = distance;
         
         while(start <= end) {
-            int mid = (start + end) / 2;
-            int cnt = 0;
-            int prev = 0;
+            int mid = (start + end) / 2; // 14
+            int cnt = 0; // 개수 
+            int prev = 0; // 전에 바위
             
             for(int i=0; i<rocks.length; i++) {
                 if(rocks[i] - prev < mid) {
-                    cnt++;
+                    cnt++; //3 // 2 //4 
                 } else {
                     prev = rocks[i];
                 }

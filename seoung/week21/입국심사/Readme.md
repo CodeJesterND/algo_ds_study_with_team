@@ -21,7 +21,6 @@ class Solution {
                 sum += mid / time;
             }
             
-            
             if(sum >= n) {
                 answer = mid;
                 end = mid - 1;
@@ -60,7 +59,7 @@ while (start <= end) {
 
 - while(start<=end) 이진 탐색을 실행하는 반복문이다. 가능한 시간 범위에서 최소 시간을 찾아가는 과정이다.
 - mid = (start + end) / 2 중간값을 구합니다. 
-- 각 심사관이 mid시간 동안 몇명을 처리할 수 이쓴ㄴ지 사람의 수를 계산한다. 
+- 각 심사관이 mid시간 동안 몇명을 처리할 수 있는지 사람의 수를 계산합니다. 
 - 각 심사관이 처리할 수 있는 수를 sum에 저장합니다. 
 
 ```
